@@ -1,0 +1,43 @@
+html,
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: #2d2d2d;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 65ch;
+  margin: 0 auto;
+  margin-top: 2cm;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 204, 115);
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+main p {
+  margin-bottom: 2rem;
+
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  padding: 5px 10px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+a {
+  font-weight: 600;
+  color: #333;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
